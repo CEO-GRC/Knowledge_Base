@@ -1,0 +1,97 @@
+Categoria,Subcategoria,Problema_ES,Solucion_ES,Problema_EN,Solucion_EN
+Cuenta,General,"El cliente quiere saber cómo actualizar su información de contacto (teléfono, correo).","Guiar al cliente al menú 'Mi Perfil > Datos de Contacto' en la app o el portal web, donde puede actualizar teléfono y correo directamente. Si no tiene acceso al portal, tomar los nuevos datos y actualizarlos manualmente en el CRM, confirmando la identidad del cliente primero.","The customer wants to know how to update their contact information (phone, email).","Guide the customer to the 'My Profile > Contact Details' menu in the app or web portal, where they can update phone and email directly. If they don't have portal access, take the new details and update them manually in the CRM, confirming the customer's identity first."
+Hold,Bloqueo de Cuenta,"El cliente no puede acceder a su cuenta porque aparece bloqueada.","1. Verificar el motivo del bloqueo en el log de seguridad (intentos fallidos, alerta de fraude, mora prolongada).
+2. Si es por intentos fallidos, guiar al cliente en el proceso de restablecimiento de contraseña.
+3. Si es por mora, explicar el motivo y las opciones de regularización disponibles.
+4. Si es por alerta de fraude, escalar al equipo de Seguridad sin desbloquear la cuenta.","The customer cannot access their account because it appears blocked.","1. Check the block reason in the security log (failed attempts, fraud alert, prolonged delinquency).
+2. If it's due to failed attempts, guide the customer through the password reset process.
+3. If it's due to delinquency, explain the reason and the available regularization options.
+4. If it's due to a fraud alert, escalate to the Security team without unblocking the account."
+Hold,Retención por Documentación,"La cuenta está en Hold porque falta documentación requerida (aplicación de crédito, W-9, certificado de exención de impuestos, etc.).","1. Identificar en el sistema qué documento específico falta o está vencido.
+2. Solicitar el documento al cliente indicando el formato aceptado y la fecha límite.
+3. Cargar el documento recibido en el sistema y notificar al equipo de Crédito.
+4. Confirmar con el cliente el tiempo estimado para liberar el Hold una vez validado el documento (usualmente 1-2 días hábiles).","The account is on Hold because required documentation is missing (credit application, W-9, tax exemption certificate, etc.).","1. Identify in the system which specific document is missing or expired.
+2. Request the document from the customer, indicating the accepted format and the deadline.
+3. Upload the received document to the system and notify the Credit team.
+4. Confirm with the customer the estimated time to release the Hold once the document is validated (usually 1-2 business days)."
+Disputas,Mercancía No Recibida,"El cliente afirma que pagó por un producto o servicio que nunca recibió.","1. Solicitar al cliente evidencia de la compra (número de orden, fecha estimada de entrega).
+2. Confirmar con el comercio el estado del envío, si aplica.
+3. Si pasaron más de 30 días sin entrega, abrir disputa por 'Bienes/Servicios No Recibidos'.
+4. Dar seguimiento cada 5 días hábiles hasta resolución.","The customer claims they paid for a product or service they never received.","1. Ask the customer for proof of purchase (order number, estimated delivery date).
+2. Confirm shipment status with the merchant, if applicable.
+3. If more than 30 days have passed without delivery, open a dispute for 'Goods/Services Not Received'.
+4. Follow up every 5 business days until resolution."
+Disputas,Impuestos (STEC & Form),"El cliente disputa un cargo de impuestos, indicando que cuenta con un certificado de exención (STEC) o que ya envió el formulario correspondiente.","1. Verificar en el sistema si existe un STEC vigente asociado a la cuenta.
+2. Si el certificado está vencido o no está en archivo, solicitar al cliente una copia actualizada.
+3. Si el STEC es válido y cubre la transacción, procesar la reversa del impuesto.
+4. Si hay dudas sobre la aplicabilidad, escalar al equipo de Impuestos antes de resolver.","The customer disputes a tax charge, stating they have a tax exemption certificate (STEC) or already submitted the corresponding form.","1. Check the system for a valid STEC on file for the account.
+2. If the certificate is expired or missing, request an updated copy from the customer.
+3. If the STEC is valid and covers the transaction, process the tax reversal.
+4. If there is doubt about applicability, escalate to the Tax team before resolving."
+Disputas,Recargos por Combustible,"El cliente disputa el recargo por combustible (fuel surcharge) aplicado en su factura.","1. Verificar la tarifa de recargo por combustible vigente en la fecha de la factura (según el índice publicado).
+2. Comparar la tarifa aplicada contra la tarifa oficial correspondiente a esa fecha.
+3. Si hay una diferencia por error de aplicación, emitir el ajuste/crédito correspondiente.
+4. Si la tarifa es correcta, compartir con el cliente la tabla de referencia para explicar el cálculo.","The customer disputes the fuel surcharge applied on their invoice.","1. Check the fuel surcharge rate in effect on the invoice date (per the published index).
+2. Compare the rate applied against the official rate for that date.
+3. If there is a discrepancy due to an application error, issue the corresponding credit/adjustment.
+4. If the rate is correct, share the reference table with the customer to explain the calculation."
+Disputas,Pago Duplicado,"El cliente indica que un mismo pago fue aplicado dos veces en su cuenta.","1. Verificar en el sistema ambas aplicaciones de pago (referencia, fecha y monto).
+2. Confirmar con el área de Tesorería/Conciliación si efectivamente se trata de una duplicidad.
+3. Si se confirma, aplicar el pago sobrante como crédito a favor o procesar el reembolso, según prefiera el cliente.
+4. Documentar el ajuste en el sistema y notificar al cliente.","The customer states that the same payment was applied twice to their account.","1. Verify both payment postings in the system (reference, date and amount).
+2. Confirm with Treasury/Reconciliation whether it is indeed a duplicate.
+3. If confirmed, apply the extra payment as a credit on account or process a refund, per the customer's preference.
+4. Document the adjustment in the system and notify the customer."
+Disputas,Aviso de Remesa,"El cliente indica que no recibió, o no puede ubicar, el aviso de remesa (remittance advice) de su pago.","1. Verificar en el sistema si el aviso de remesa fue generado y enviado correctamente.
+2. Confirmar que el correo de contacto en archivo esté actualizado.
+3. Reenviar el aviso de remesa al correo correcto.
+4. Si el sistema no generó el aviso, escalar al equipo de Facturación para su emisión manual.","The customer states they did not receive, or cannot locate, the remittance advice for their payment.","1. Check the system to confirm whether the remittance advice was generated and sent correctly.
+2. Confirm the contact email on file is up to date.
+3. Resend the remittance advice to the correct email address.
+4. If the system did not generate it, escalate to the Billing team for manual issuance."
+Disputas,POA,"La disputa o el ajuste solicitado requiere validar el POA asociado a la cuenta antes de procesarse.","1. Verificar en el sistema si existe un POA vigente y válido para la cuenta.
+2. Si está vencido o no coincide con el solicitante, pedir al cliente una copia actualizada.
+3. Una vez validado el POA, continuar con el trámite de la disputa o el ajuste.
+4. Si hay inconsistencias, escalar al supervisor antes de procesar cualquier cambio.","The requested dispute or adjustment requires validating the POA associated with the account before it can be processed.","1. Check the system for a current, valid POA on file for the account.
+2. If it is expired or does not match the requester, ask the customer for an updated copy.
+3. Once the POA is validated, proceed with the dispute or adjustment.
+4. If there are inconsistencies, escalate to a supervisor before processing any change."
+Disputas,Pago Parcial,"El pago recibido es menor al monto facturado (short payment) sin una explicación aparente.","1. Identificar la diferencia exacta entre el monto facturado y el monto pagado.
+2. Revisar si existen créditos, descuentos o deducciones aprobadas que expliquen la diferencia.
+3. Si no hay justificación, contactar al cliente para solicitar el soporte de la deducción.
+4. Aplicar el ajuste correspondiente o gestionar el cobro del saldo restante.","The payment received is less than the invoiced amount (short payment) with no apparent explanation.","1. Identify the exact difference between the invoiced amount and the amount paid.
+2. Check for approved credits, discounts or deductions that would explain the difference.
+3. If there is no justification, contact the customer to request backup for the deduction.
+4. Apply the corresponding adjustment or pursue collection of the remaining balance."
+Disputas,Problemas de Báscula,"El cliente disputa la cantidad facturada, argumentando una diferencia entre el peso registrado en báscula (scale ticket) y lo facturado.","1. Solicitar y verificar el ticket de báscula (scale ticket) correspondiente al envío.
+2. Comparar la cantidad del ticket contra la cantidad facturada.
+3. Coordinar con la planta o el equipo de logística para confirmar el peso registrado.
+4. Si se confirma la discrepancia, emitir el crédito o ajuste correspondiente.","The customer disputes the invoiced quantity, citing a difference between the recorded scale ticket weight and what was invoiced.","1. Request and verify the scale ticket for the shipment.
+2. Compare the ticket quantity against the invoiced quantity.
+3. Coordinate with the plant or logistics team to confirm the recorded weight.
+4. If the discrepancy is confirmed, issue the corresponding credit or adjustment."
+Disputas,Error en Cotización,"El cliente indica que el precio facturado no coincide con la cotización (quote) que se le proporcionó.","1. Localizar la cotización original asociada a la orden.
+2. Comparar el precio cotizado contra el precio facturado.
+3. Confirmar con el equipo de Ventas si hubo un error al capturar el precio.
+4. Si se confirma el error, corregir la factura y notificar al cliente.","The customer states that the invoiced price does not match the quote they were given.","1. Locate the original quote associated with the order.
+2. Compare the quoted price against the invoiced price.
+3. Confirm with the Sales team whether there was a pricing entry error.
+4. If the error is confirmed, correct the invoice and notify the customer."
+Pagos,Pago No Reflejado,"El cliente indica que realizó un pago pero no aparece reflejado en su cuenta.","1. Solicitar comprobante de pago (referencia bancaria, fecha y monto).
+2. Verificar en el sistema de conciliación si el pago está en proceso (usualmente tarda hasta 24-48 horas).
+3. Si no aparece después de 48 horas, escalar al equipo de Conciliación de Pagos con el comprobante adjunto.
+4. Informar al cliente el estado y tiempo estimado de resolución.","The customer states they made a payment but it is not reflected in their account.","1. Request proof of payment (bank reference, date and amount).
+2. Check the reconciliation system to see if the payment is still processing (usually up to 24-48 hours).
+3. If it still does not appear after 48 hours, escalate to the Payment Reconciliation team with the proof attached.
+4. Inform the customer of the status and estimated resolution time."
+Pagos,Planes de Pago,"El cliente pregunta cómo puede configurar un plan de pagos para saldar su deuda.","1. Revisar la elegibilidad del cliente en el módulo de Planes de Pago (antigüedad de la deuda, historial).
+2. Ofrecer las opciones de plazo disponibles (3, 6 o 12 meses) según política vigente.
+3. Registrar el acuerdo en el sistema y enviar la confirmación por correo al cliente.
+4. Explicar las consecuencias de incumplimiento del plan.","The customer asks how to set up a payment plan to settle their debt.","1. Review the customer's eligibility in the Payment Plans module (debt age, history).
+2. Offer the available term options (3, 6 or 12 months) per current policy.
+3. Register the agreement in the system and email the confirmation to the customer.
+4. Explain the consequences of missing a plan payment."
+Pagos,Tiempos de Procesamiento,"El cliente pregunta cuánto tiempo tarda en procesarse su pago.","Transferencia/ACH: 1-2 días hábiles. Cheque: 3-5 días hábiles después de recibido. Tarjeta de crédito/débito: se refleja en 24 horas. Indicar siempre al cliente la fecha estimada según el método usado.","The customer asks how long it takes for their payment to process.","Bank transfer/ACH: 1-2 business days. Check: 3-5 business days after receipt. Credit/debit card: reflected within 24 hours. Always give the customer the estimated date based on the method used."
+Pagos,Interés por Pago con Tarjeta,"El cliente pregunta cuánto interés o cargo adicional se aplica al pagar con tarjeta de crédito.","Consultar la tabla de tarifas vigente (Fee Schedule) en el sistema, ya que el porcentaje puede variar por región o tipo de cuenta. No dar un porcentaje de memoria: confirmarlo siempre en la tabla actualizada y, si no aparece, validar con el supervisor antes de responder al cliente.","The customer asks how much interest or extra charge applies to paying by credit card.","Check the current Fee Schedule in the system, since the percentage can vary by region or account type. Do not quote a percentage from memory: always confirm it in the up-to-date table and, if it is not listed, verify with a supervisor before answering the customer."
+Pagos,Tipos de Pago Aceptados,"El cliente pregunta qué formas de pago se aceptan.","Se aceptan: transferencia bancaria/ACH, cheque, tarjeta de crédito o débito, y pago en línea a través del portal del cliente. Mencionar si alguna opción tiene cargos adicionales o restricciones de monto.","The customer asks what payment methods are accepted.","Accepted methods: bank transfer/ACH, check, credit or debit card, and online payment through the customer portal. Mention if any option carries extra fees or amount restrictions."
+Pagos,Transferencia vs. Cheque,"El cliente sigue pagando con cheque y se busca persuadirlo de cambiar a transferencia bancaria.","Explicar los beneficios: más rápido (sin tiempo de tránsito postal), sin riesgo de pérdida o extravío, y confirmación inmediata de recepción. Guiar al cliente para registrar su cuenta bancaria en el portal y ofrecer apoyo durante la primera transferencia.","The customer keeps paying by check and the goal is to persuade them to switch to a bank transfer.","Explain the benefits: faster (no mail transit time), no risk of loss, and immediate confirmation of receipt. Guide the customer to register their bank account in the portal and offer support during their first transfer."
